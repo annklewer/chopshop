@@ -1,11 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,600,700);
+/* open sans fonts; italic 300, 400, 600. regular 400 600 700 */
+
 body {
   max-width: 1000px;
   padding: 1em;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
-div, section, main, aside, header, footer {
-  border: 1px solid lightgray;
-  padding: .5em;
-  margin-bottom: 1em;
-}
+p {
+  font-family: 'Open Sans', Helvetica, sans-serif;
