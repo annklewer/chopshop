@@ -1,3 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,600,700);
+/* open sans fonts; italic 300, 400, 600. regular 400 600 700 */
+
+
 ul {
   list-style: none;
+}
+
+.myButton {
+	-moz-box-shadow: 3px 4px 0px 0px #8d2c3b;
+	-webkit-box-shadow: 3px 4px 0px 0px #8d2c3b;
+	box-shadow: 3px 4px 0px 0px #8d2c3b;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d1515a), color-stop(1, #d1515a));
+	background:-moz-linear-gradient(top, #d1515a 5%, #d1515a 100%);
+	background:-webkit-linear-gradient(top, #d1515a 5%, #d1515a 100%);
+	background:-o-linear-gradient(top, #d1515a 5%, #d1515a 100%);
+	background:-ms-linear-gradient(top, #d1515a 5%, #d1515a 100%);
+	background:linear-gradient(to bottom, #d1515a 5%, #d1515a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d1515a', endColorstr='#d1515a',GradientType=0);
+	background-color:#d1515a;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #d1515a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Open Sans';
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #d1515a;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d1515a), color-stop(1, #d1515a));
+	background:-moz-linear-gradient(top, #d1515a 5%, #d1515a 100%);
+	background:-webkit-linear-gradient(top, #d1515a 5%, #d1515a 100%);
+	background:-o-linear-gradient(top, #d1515a 5%, #d1515a 100%);
+	background:-ms-linear-gradient(top, #d1515a 5%, #d1515a 100%);
+	background:linear-gradient(to bottom, #d1515a 5%, #d1515a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d1515a', endColorstr='#d1515a',GradientType=0);
+	background-color:#d1515a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
