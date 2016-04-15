@@ -2,8 +2,18 @@
 /* open sans fonts; italic 300, 400, 600. regular 400 600 700 */
 
 
-ul {
+ul.li {
   list-style: none;
+  color: rgb(88,89,91);
+  text-decoration: none;
+
+}
+
+ul:hover{
+  color: black;
+  font-weight:bold;
+
+
 }
 
 .myButton {
@@ -159,3 +169,7 @@ nav[role=navigation] {
 				border: 0;
 			}
 		}
+
+h1{
+  color: rgb(209,81,90)
+}
