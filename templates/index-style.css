@@ -22,6 +22,10 @@ nav{
   align:right;
 }
 
+.logo {
+  max-width: 50%;
+}
+
 .myButton {
 	-moz-box-shadow: 3px 4px 0px 0px #8d2c3b;
 	-webkit-box-shadow: 3px 4px 0px 0px #8d2c3b;
@@ -177,5 +181,7 @@ nav[role=navigation] {
 		}
 
 h1{
-  color: rgb(209,81,90)
+  color: rgb(209,81,90);
+  text-transform: capitalize;
+  text-align: center;
 }
