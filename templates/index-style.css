@@ -68,10 +68,10 @@ nav{
 }
 
 a.menu-link {
-  	    float: right;
+  	    float: left;
 		    display: block;
 		    padding: 1em;
-			  width: 125px;
+			  width: 100px;
 		}
 
 /* Adds Code for Pure CSS Hamburger Button */
@@ -184,4 +184,5 @@ h1{
   color: rgb(209,81,90);
   text-transform: capitalize;
   text-align: center;
+  text
 }
