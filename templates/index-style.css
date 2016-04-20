@@ -8,22 +8,19 @@ ul {
   text-decoration: none;
 }
 
-li {
+li.nav-menu {
+  list-style: none;
   color: rgb(88,89,91);
   text-decoration: none;
 }
 
-ul:hover{
+li:hover{
   color: black;
   font-weight:bold;
 }
 
 nav{
   align:right;
-}
-
-.logo {
-  max-width: 50%;
 }
 
 .myButton {
@@ -71,7 +68,7 @@ a.menu-link {
   	    float: left;
 		    display: block;
 		    padding: 1em;
-			  width: 100px;
+			  width: 125px;
 		}
 
 /* Adds Code for Pure CSS Hamburger Button */
@@ -96,7 +93,7 @@ a.menu-link span {
   margin-bottom: 5px;
   position: relative;
   background: #cdcdcd;
-  border-radius: 3px; /* Adjust the rounding of the hamburger here */
+  border-radius: 2px; /* Adjust the rounding of the hamburger here */
   z-index: 1;
   transform-origin: 4px 0px;
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
@@ -184,5 +181,5 @@ h1{
   color: rgb(209,81,90);
   text-transform: capitalize;
   text-align: center;
-  text
+  letter-spacing: .3px;
 }

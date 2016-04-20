@@ -1,6 +1,3 @@
-<script language="JavaScript">
-<script type="text/javascript">
-
 $(document).ready(function() {
   $('body').addClass('js');
   var $menu = $('#menu'),
@@ -11,5 +8,3 @@ $menulink.click(function() {
   $menu.toggleClass('active');
   return false;
 });});
-
-</script>
