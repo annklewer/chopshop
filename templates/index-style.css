@@ -2,16 +2,18 @@
 /* open sans fonts; italic 300, 400, 600. regular 400 600 700 */
 
 
-ul {
+ul.menu {
   list-style: none;
-  color: rgb(88,89,91);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: white;
   text-decoration: none;
 }
 
 li.nav-menu {
   list-style: none;
-  color: rgb(88,89,91);
   text-decoration: none;
+  color: white;
 }
 
 li:hover{
