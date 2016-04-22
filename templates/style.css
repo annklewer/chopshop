@@ -50,7 +50,7 @@ html, body {
     padding: 0
 }
 
-/*#contentWrapper {
+#contentWrapper {
     width: 300px;
     margin: 0 auto;
     background: #ccc;
@@ -66,12 +66,13 @@ html, body {
     height: 300px;
     background: #3B424E;
 }
-*/
+
 
 footer {
-  color: white;
+  color: blue;
 }
 
-.social{
-  width: 60% auto;
+img.align-center social{
+  display: block;
+  width: 60%;
 }
