@@ -40,9 +40,9 @@ header {
 }
 
  .logo {
-  position: absolute;
+  block: inline;
   top: 80px;
-  marin: auto;
+  margin: 0px;
 }
 
 .read {
