@@ -3,7 +3,6 @@
 
 body {
   max-width: 1000px;
-  padding: 1em;
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
@@ -24,6 +23,22 @@ h1 {
   line-height: .7em;
 }
 
+h1:before {
+  content: "\25C6";
+  position: relative;
+  right: 15px;
+  top: -2px;
+  color: #bbb;
+}
+
+h1:after {
+  content: "\25C6";
+  position: relative;
+  left: 15px;
+  top: -2px;
+  color: #bbb;
+}
+
 .team {
   width: 20%;
 }
@@ -40,9 +55,14 @@ header {
 }
 
  .logo {
-  block: inline;
-  top: 80px;
-  margin: 0px;
+   display: block;
+   width: 275px;
+   margin: 15px auto;
+}
+
+.mainpic {
+  display: block;
+  width: 100%;
 }
 
 .read {

@@ -26,7 +26,6 @@ nav{
 }
 
 .myButton {
-  height: 10px;
 	-moz-box-shadow: 3px 4px 0px 0px #8d2c3b;
 	-webkit-box-shadow: 3px 4px 0px 0px #8d2c3b;
 	box-shadow: 3px 4px 0px 0px #8d2c3b;
@@ -46,11 +45,15 @@ nav{
 	cursor:pointer;
 	color:#ffffff;
 	font-family:'Open Sans';
-	font-size:15px;
+	font-size:11px;
 	font-weight:bold;
-	padding:12px 44px;
+	padding:4px 19px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #d1515a;
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  letter-spacing: 0.7px;
 }
 .myButton:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d1515a), color-stop(1, #d1515a));
@@ -68,18 +71,19 @@ nav{
 }
 
 a.menu-link {
-  	    float: left;
-		    display: block;
-		    padding: 1em;
-			  width: 125px;
-		}
+  display: block;
+  width: 125px;
+  position: absolute;
+  top: 27px;
+  left: 25px;
+}
 
 /* Adds Code for Pure CSS Hamburger Button */
 
 .menu-link__hamburger {
 	margin: 0 auto;
 	text-align: center;
-	width: 33px;
+	width: 40px;
 	float: left;
 	transform: translate(0,0);
 	transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
@@ -189,5 +193,35 @@ h1{
 
 .icon {
   max-width: 50%;
-  margin: 10px 70px;
+  margin: 10px auto;
+  display: block;
+}
+
+.social {
+  width: 270px;
+  display: block;
+  margin: 0 auto;
+}
+
+.footer-nav {
+  text-align: center;
+}
+.footer-nav a {
+  display: inline-block;
+  margin: 0 28px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer-copyright {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #ccc;
+  margin-top: 26px;
+}
+
+main {
+  padding-top: 80px;
 }
