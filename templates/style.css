@@ -2,7 +2,6 @@
 /* open sans fonts; italic 300, 400, 600. regular 400 600 700 */
 
 body {
-  max-width: 1000px;
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
@@ -58,6 +57,7 @@ header {
    display: block;
    width: 275px;
    margin: 15px auto;
+   margin-top: 80px;
 }
 
 .mainpic {
@@ -82,7 +82,7 @@ html, body {
     height: 100px;
 }
 
-#headerBar {
+header {
     height: 80px;
     background: #3B424E;
 }

@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,600,700);
 /* open sans fonts; italic 300, 400, 600. regular 400 600 700 */
 
+* {
+  box-sizing: border-box;
+}
 
 ul.menu {
   list-style: none;
@@ -148,6 +151,9 @@ nav[role=navigation] {
 		.js nav[role=navigation] {
 			overflow: hidden;
 			max-height: 0;
+      width: 100%;
+      top: 80px;
+      position: absolute;
 		}
 		nav[role=navigation].active {
 			max-height: 15em;
@@ -156,11 +162,17 @@ nav[role=navigation] {
 			margin: 0;
 			padding: 0;
 			border-top: 1px solid #808080;
+      background-color: white;
 		}
+
 		nav[role=navigation] li a {
 			display: block;
 			padding: 0.8em;
 			border-bottom: 1px solid #808080;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      color: black;
+      text-decoration: none;
 		}
 
 h1{
@@ -178,6 +190,14 @@ h2 {
   text-transform: capitalize;
   text-align: center;
   letter-spacing: .5px;
+}
+
+.mainpic {
+  width: 100%;
+}
+
+.col-group > div {
+  padding: 1em 1em 0;
 }
 
 .icon {
@@ -221,10 +241,17 @@ main {
   }
   .js nav[role=navigation] {
     max-height: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 60%;
   }
+
   nav[role=navigation] ul {
-    margin: 0 0 0 -0.25em;
+    margin: 15px 0 0 -0.25em;
     border: 0;
+    background-color: inherit;
+    text-align: right;
   }
 
   nav[role=navigation]  li {
@@ -233,5 +260,33 @@ main {
   }
   nav[role=navigation] li a {
     border: 0;
+    color: black;
   }
+
+  .col-group {
+  overflow: hidden;
+  }
+.col-group > div {
+  float: left;
+  width: 33.3333333%;
+  }
+
+main {
+  max-width: 1000px;
+  margin: 0 auto 4em auto;
+}
+
+header {
+  position: inherit;
+  top: inherit;
+  left: inherit;
+  background-color: inherit;
+  float: right;
+  width: 60%;
+}
+
+.logo {
+  margin-top: 30px;
+  margin-left: 0;
+}
 }
