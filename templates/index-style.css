@@ -194,6 +194,7 @@ h2 {
 
 .mainpic {
   width: 100%;
+  max-height: 600px;
 }
 
 .col-group > div {
@@ -232,7 +233,7 @@ h2 {
 }
 
 main {
-  padding-top: 80px;
+  padding-top: 30px;
 }
 
 @media screen and (min-width:800px) {
@@ -248,7 +249,7 @@ main {
   }
 
   nav[role=navigation] ul {
-    margin: 15px 0 0 -0.25em;
+    margin: 20px 15px 0 -0.25em;
     border: 0;
     background-color: inherit;
     text-align: right;
@@ -261,6 +262,7 @@ main {
   nav[role=navigation] li a {
     border: 0;
     color: black;
+    font-size: .9em;
   }
 
   .col-group {
@@ -287,6 +289,18 @@ header {
 
 .logo {
   margin-top: 30px;
-  margin-left: 0;
+  margin-left: 10px;
+}
+
+.myButton {
+  font-size:12px;
+  font-weight:bold;
+  padding:6px 21px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #d1515a;
+  position: absolute;
+  right: 30px;
+  top: 25px;
+  letter-spacing: 0.7px;
 }
 }
