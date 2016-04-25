@@ -163,32 +163,21 @@ nav[role=navigation] {
 			border-bottom: 1px solid #808080;
 		}
 
-		@media screen and (min-width:800px) {
-			a.menu-link {
-			   display: none;
-			}
-			.js nav[role=navigation] {
-				max-height: none;
-			}
-			nav[role=navigation] ul {
-				margin: 0 0 0 -0.25em;
-				border: 0;
-			}
-
-			nav[role=navigation]  li {
-				display: inline-block;
-				margin: 0 0.25em;
-			}
-			nav[role=navigation] li a {
-				border: 0;
-			}
-		}
-
 h1{
   color: rgb(209,81,90);
   text-transform: capitalize;
   text-align: center;
   letter-spacing: .3px;
+}
+
+h2 {
+  color: rgb(209,81,90);
+  font-size: 1.2em;
+  line-height: .5em;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: .5px;
 }
 
 .icon {
@@ -224,4 +213,25 @@ h1{
 
 main {
   padding-top: 80px;
+}
+
+@media screen and (min-width:800px) {
+  a.menu-link {
+     display: none;
+  }
+  .js nav[role=navigation] {
+    max-height: none;
+  }
+  nav[role=navigation] ul {
+    margin: 0 0 0 -0.25em;
+    border: 0;
+  }
+
+  nav[role=navigation]  li {
+    display: inline-block;
+    margin: 0 0.25em;
+  }
+  nav[role=navigation] li a {
+    border: 0;
+  }
 }
