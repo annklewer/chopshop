@@ -8,22 +8,32 @@
     <meta name="description" content="Book Appointment">
   </head>
   <body>
-    <header>
-        The Ohio Chop Shop
-    </header>
+    <header role="banner">
 
-    <nav>
-      <ul>
-        <li>About</li>
-        <li>Shop</li>
-        <li>Team</li>
-        <li>Services</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+    <a href="#" class="myButton">BOOK APPOINTMENT</a>
 
+      <a href="#menu" class="menu-link">
+      	<div class="menu-link__hamburger">
+      		<span></span>
+      		<span></span>
+      		<span></span>
+      	</div>
+      	<div class="menu-link__label"></div>
+      </a>
 
-    <main>
+      <nav id="menu" role="navigation">
+      			<ul class="menu">
+              <li><a href="index.html">ABOUT</a></li>
+              <li><a href="shop.html">SHOP</a></li>
+              <li><a href="team.html">TEAM</a></li>
+              <li><a href="services.html">SERVICES</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+      			</ul>
+      </nav>
+
+      </header>
+
+    <main role="main">
       <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">directory submission sites</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(41.0814447,-81.5190053),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.0814447,-81.5190053)});infowindow = new google.maps.InfoWindow({content:'<strong>The Ohio Chop Shop</strong><br>Akron, Ohio<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 
       <h1>Contact</h1>
@@ -43,7 +53,7 @@
 
     </main>
 
-    <footer>
+    <footer role="contentinfo">
       <p>Copyright the Ohio Shop Shop Hair Salon</p>
 
       <nav>

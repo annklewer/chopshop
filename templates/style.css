@@ -38,9 +38,6 @@ h1:after {
   color: #bbb;
 }
 
-.team {
-  width: 20%;
-}
 
 header {
   position: fixed;
@@ -60,14 +57,13 @@ header {
    margin-top: 90px;
 }
 
+.team {
+  width: 20%;
+}
+
 .mainpic {
   display: block;
   width: 100%;
-}
-
-.read {
-  position: absolute;
-  color: #8d2c3b;
 }
 
 html, body {
@@ -80,6 +76,7 @@ header {
     height: 80px;
     background: #3B424E;
 }
+
 
 footer {
   background: #3B424E;
