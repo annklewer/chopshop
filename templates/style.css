@@ -153,9 +153,10 @@ nav{
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d1515a', endColorstr='#d1515a',GradientType=0);
 	background-color:#d1515a;
 }
+
 .myButton:active {
-	position:relative;
-	top:1px;
+  box-shadow: 0 2px 0 #d1515a;
+  transform: translateY(3px);
 }
 
 a.menu-link {
