@@ -1,3 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,600,700);
+/* open sans fonts; italic 300, 400, 600. regular 400 600 700 */
+
+
+
+
+
+
 body {
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
@@ -124,5 +132,107 @@ textarea:focus {
   form > div > label,
 	legend {
   	text-align: right;
+  }
+}
+
+
+/*footer social icons*/
+
+footer {
+  background: #3B424E;
+  color: white;
+}
+
+.footer-nav {
+  text-align: center;
+}
+
+.footer-nav a {
+  display: inline-block;
+  margin: 0 28px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer-copyright {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #ccc;
+  margin-top: 26px;
+}
+
+.social {
+  max-width: 270px;
+  display: block;
+  margin: 0 auto;
+}
+
+img.align-center social{
+  display: block;
+  width: 40%;
+}
+
+/* start of media quiries*/
+@media screen and (min-width:800px) {
+  a.menu-link {
+     display: none;
+  }
+  .js nav[role=navigation] {
+    max-height: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 60%;
+  }
+
+  nav[role=navigation] ul {
+    margin: 20px 15px 0 -0.25em;
+    border: 0;
+    background-color: inherit;
+    text-align: right;
+  }
+
+  nav[role=navigation]  li {
+    display: inline-block;
+    margin: 0 0.25em;
+  }
+  nav[role=navigation] li a {
+    border: 0;
+    color: black;
+    font-size: .9em;
+  }
+
+  header {
+    position: inherit;
+    top: inherit;
+    left: inherit;
+    background-color: inherit;
+    float: right;
+    width: 60%;
+  }
+
+  .logo {
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+  .myButton {
+    font-size:12px;
+    font-weight:bold;
+    padding:6px 21px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #d1515a;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    letter-spacing: 0.7px;
+  }
+
+  .social {
+    max-width: 270px;
+    display: block;
+    margin: 0 auto;
   }
 }
