@@ -9,52 +9,136 @@
   </head>
   <body>
     <header>
-        The Ohio Chop Shop
-    </header>
 
-    <nav>
-      <ul>
-        <li>About</li>
-        <li>Shop</li>
-        <li>Team</li>
-        <li>Services</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+    <a href="#" class="myButton">BOOK APPOINTMENT</a>
 
-    <main>
-    <form>
-      <p>Basic form format</p>
-      <p>Name *</p>
-      <p>Phone Number *</p>
-      <p>Email Address *
-      <p>Requested Service *</p>
-      <p>Requested Service Provider * </p>
-      <p>Appointment Date * </p>
-    </form>
+      <a href="#menu" class="menu-link">
+        <div class="menu-link__hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-link__label"></div>
+      </a>
 
-  <p>Additional Information *
-  Please note that the date and time you requested may not be available. We will contact you to confirm your actual appointment details.</p>
+      <nav id="menu" role="navigation">
+            <ul class="menu">
+              <li><a href="index.html">ABOUT</a></li>
+              <li><a href="shop.html">SHOP</a></li>
+              <li><a href="team.html">TEAM</a></li>
+              <li><a href="services.html">SERVICES</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+      </nav>
+
+      </header>
+
+<main>
+
+      <form action="#">
+
+        <header>
+          <h2>Book Appointment</h2>
+          <div></div>
+        </header>
+
+        <div>
+          <label class="desc" id="title1" for="Field1">Your Name</label>
+          <div>
+            <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
+          </div>
+        </div>
+
+        <div>
+          <label class="desc" id="title3" for="Field3">
+            Email
+          </label>
+          <div>
+            <input id="Field3" name="Field3" type="email" spellcheck="false" value="" maxlength="255" tabindex="3">
+         </div>
+        </div>
+
+        <div>
+          <label class="desc" id="title3" for="Field3">
+            Phone
+          </label>
+          <div>
+            <input id="Field3" name="Field3" type="email" spellcheck="false" value="" maxlength="255" tabindex="3">
+         </div>
+        </div>
+
+
+        <div>
+          <fieldset>
+
+            <legend id="title5" class="desc">
+              Select a Stylist
+            </legend>
+
+            <div>
+            	<input id="radioDefault_5" name="Field5" type="hidden" value="">
+            	<div>
+            		<input id="Field5_0" name="Field5" type="radio" value="First Choice" tabindex="5" checked="checked">
+            		<label class="choice" for="Field5_0">Ana</label>
+            	</div>
+              <div>
+              	<input id="Field5_1" name="Field5" type="radio" value="Second Choice" tabindex="6">
+              	<label class="choice" for="Field5_1">Jorge</label>
+              </div>
+              <div>
+              	<input id="Field5_2" name="Field5" type="radio" value="Third Choice" tabindex="7">
+              	<label class="choice" for="Field5_2">Jaime</label>
+              </div>
+              <div>
+                <input id="Field5_2" name="Field5" type="radio" value="Third Choice" tabindex="7">
+                <label class="choice" for="Field5_2">Rueben</label>
+              </div>
+              <div>
+                <input id="Field5_2" name="Field5" type="radio" value="Third Choice" tabindex="7">
+                <label class="choice" for="Field5_2">Joanna</label>
+              </div>
+              <div>
+                <input id="Field5_2" name="Field5" type="radio" value="Third Choice" tabindex="7">
+                <label class="choice" for="Field5_2">Charlene</label>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+
+        <div>
+          <label class="desc" id="title106" for="Field106">
+          	Select a Service
+          </label>
+          <div>
+          <select id="Field106" name="Field106" class="field select medium" tabindex="11">
+            <option value="First Choice">Women's Haircut</option>
+            <option value="Second Choice">Men's Haircut</option>
+            <option value="Third Choice">Manicure</option>
+            <option value="Fourth Choice">Pedicure</option>
+            <option value="Fifth Choice">Massage</option>
+            <option value="Sixth Choice">Facial</option>
+          </select>
+          </div>
+        </div>
+
+        <div>
+      		<div>
+        		<input id="saveForm" name="saveForm" type="submit" value="Submit">
+          </div>
+      	</div>
+
+      </form>
+
+
+  <p> Please note that the date and time you requested may not be available.
+  We will contact you to confirm your actual appointment details.</p>
 
 
     </main>
 
-    <footer>
-      <p>Copyright the Ohio Shop Shop Hair Salon</p>
-
-      <nav>
-        <ul>
-          <li>Careers</li>
-          <li>Terms</li>
-          <li>Blog</li>
-        </ul>
-      </nav>
-
-      <p>Social Media icons</p>
-    </footer>
 
 
 
-      <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
+      <link href="form.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
   </body>
 </html>
