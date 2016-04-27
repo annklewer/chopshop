@@ -289,6 +289,12 @@ footer {
   margin-top: 26px;
 }
 
+.social {
+  max-width: 270px;
+  display: block;
+  margin: 0 auto;
+}
+
 img.align-center social{
   display: block;
   width: 40%;
