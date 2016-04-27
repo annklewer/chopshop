@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,600,700);
+/* open sans fonts; italic 300, 400, 600. regular 400 600 700 */
+
+p.contactinfo {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: .8em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.map {
+  width: 30%;
+}
+
+main {
+  margin-top: 95px;
+  text-align: center;
+}
+
+.contacthead {
+  text-align: center;
+}

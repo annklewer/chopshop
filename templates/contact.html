@@ -34,43 +34,42 @@
       </header>
 
     <main role="main">
-      <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">directory submission sites</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(41.0814447,-81.5190053),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.0814447,-81.5190053)});infowindow = new google.maps.InfoWindow({content:'<strong>The Ohio Chop Shop</strong><br>Akron, Ohio<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-
-      <h1>Contact</h1>
-
-      <h3>Directions</h3>
-      <p>The Ohio Chop Shop <br>
-        4420 E. Main St.<br>
-        Akron, Ohio 44322</p> <br>
-
-      <h3>Hours</h3>
-      <p>Monday - Thursday: 8 a.m. - 6 p.m.<br>
-         Saturday: 10 a.m. - 5 p.m.<br>
-         Sunday: Closed</p>
+      <h1 class="contacthead">Contact</h1>
 
       <h3>Phone</h3>
-      <p>330-555-5555</p>
+      <p class="contactinfo">330-555-5555</p>
+
+      <h3>Hours</h3>
+      <p class="contactinfo">Monday - Thursday: 8 a.m. - 6 p.m.<br />
+         Saturday: 10 a.m. - 5 p.m.<br />
+         Sunday: Closed</p>
+
+      <h3>Address</h3>
+      <p class="contactinfo">The Ohio Chop Shop <br />
+        4420 E. Main St.<br />
+        Akron, Ohio 44322</p>
+
+      <script class="map" src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">directory submission sites</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(41.0814447,-81.5190053),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.0814447,-81.5190053)});infowindow = new google.maps.InfoWindow({content:'<strong>The Ohio Chop Shop</strong><br>Akron, Ohio<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
+
 
     </main>
 
     <footer role="contentinfo">
-      <p>Copyright the Ohio Shop Shop Hair Salon</p>
+        <img class="align-center social" src="img/social.svg" alt="social media icons">
 
-      <nav>
-        <ul>
-          <li>Careers</li>
-          <li>Terms</li>
-          <li>Blog</li>
-        </ul>
-      </nav>
+        <nav class="footer-nav">
+          <a href="">Careers</a>
+          <a href="">Terms</a>
+          <a href="">Blog</a>
+        </nav>
 
-      <p>Social Media icons</p>
+        <p class="footer-copyright">© The Ohio Shop Shop Hair Salon</p>
     </footer>
 
 
-
     <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="index-style.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="contact-style.css" rel="stylesheet" type="text/css" media="screen" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script type="text/javascript" src="index-java.js"></script> <!-- Add your stylesheet here, before the closing HTML tag -->
   </body>
