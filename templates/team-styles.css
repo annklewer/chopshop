@@ -1,22 +1,73 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,600,700);
 /* open sans fonts; italic 300, 400, 600. regular 400 600 700 */
 
-.team {
-  width: 20%;
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; /* IE < 8 */
 }
 
 main {
   margin-top: 130px;
+  background-color: white;
 }
 
-h1.meet {
-  font-weight: 600;
-  color: rgb(209,81,90);
-  text-transform: capitalize;
+img.team {
+  width: 40%;
+}
+
+img.align-center {
+  display: block;
+  margin: 0px auto;
+}
+
+div {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  margin: 15px auto 30px auto;
+  position: relative;
+}
+
+h4 {
+  font-family: "grafolita-script", cursive;
   text-align: center;
-  font-size: 1.5em;
-  margin-bottom: .3em;
-  margin-top: 95px;
-  line-height: .7em;
-  letter-spacing: .3px;
+  font-size: 1.3em;
+  line-height: 1.2em;
+  font-weight: regular;
+}
+
+h5 {
+  font-family: "grafolita-script", cursive;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: regular;
+  margin-top: 100px;
+  text-align: center;
+  color: rgb(209,81,90);
+}
+
+
+@media screen and (min-width:800px) {
+  main {
+    max-width: 1000px;
+    margin: 0 auto 4em auto;
+    background-color: none;
+  }
+
+  div {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    margin: 15px auto 30px auto;
+    float: left;
+  }
 }

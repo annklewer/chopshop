@@ -296,7 +296,7 @@ footer {
   margin: 0 auto;
 }
 
-img.align-center social{
+img.align-center {
   display: block;
   width: 40%;
 }
@@ -346,11 +346,11 @@ img.align-center social{
   }
 
   .myButton {
-    font-size:12px;
-    font-weight:bold;
-    padding:6px 21px;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #d1515a;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 21px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #d1515a;
     position: absolute;
     right: 30px;
     top: 25px;
