@@ -24,6 +24,11 @@ img.team {
   width: 40%;
 }
 
+.mainpic {
+  width: 100%;
+  max-height: 600px;
+}
+
 img.align-center {
   display: block;
   margin: 0px auto;
@@ -70,4 +75,9 @@ h5 {
     margin: 15px auto 30px auto;
     float: left;
   }
+
+  .mainpic {
+    display: block;
+    width: 100%;
+    }
 }

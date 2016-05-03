@@ -246,7 +246,8 @@ nav[role=navigation] {
       top: 80px;
       position: absolute;
 		}
-		nav[role=navigation].active {
+
+    nav[role=navigation].active {
 			max-height: 15em;
 		}
 		nav[role=navigation] ul {
