@@ -1,9 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,600,700);
 /* open sans fonts; italic 300, 400, 600. regular 400 600 700 */
 
-p.contactinfo {
+.contactinfo {
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: .8em;
+  line-height: 1.5em;
   font-weight: 400;
   text-align: center;
 }
@@ -13,10 +14,46 @@ p.contactinfo {
 }
 
 main {
-  margin-top: 95px;
+  max-width: 1000px;
+  padding: 0 auto;
+  margin: 80px auto 0 auto;
   text-align: center;
 }
 
-.contacthead {
+h3 {
   text-align: center;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight 600;
+  line-height: .2em;
+  margin-bottom: 1px;
+}
+
+div {
+  margin-bottom: 28px;
+}
+
+.contacthead {
+  line-height: 2em;
+}
+
+.map {
+  width: 70%;
+  margin: 10px auto;
+  right: auto;
+}
+
+@media screen and (min-width:800px) {
+
+.contact {
+      float: left;
+      width: 33.3%;
+      padding-top: 1em;
+      padding-bottom: 2em;}
+
+.map {
+      width: 80%;
+      margin: 10px auto;
+      right: auto;
+      }
 }

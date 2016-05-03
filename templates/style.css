@@ -104,12 +104,17 @@ li.nav-menu {
   color: white;
 }
 
-li:hover{
+li:hover {
   color: black;
-  font-weight:bold;
+  font-weight: 700;
 }
 
-nav{
+li:active {
+  color: black;
+  font-weight: 700;
+}
+
+nav {
   align:right;
 }
 
@@ -329,6 +334,11 @@ img.align-center {
     border: 0;
     color: black;
     font-size: .9em;
+  }
+
+  li:active {
+    color: black;
+    font-weight: 700;
   }
 
   header {
