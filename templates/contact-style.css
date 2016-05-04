@@ -21,7 +21,7 @@
 main {
   max-width: 1000px;
   padding: 0 auto;
-  margin: 80px auto 0 auto;
+  margin: 40px auto 0 auto;
   text-align: center;
 }
 
@@ -48,7 +48,11 @@ div {
   right: auto;
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:600px) {
+
+main {
+    margin-top: 0;
+  }
 
 .contact {
       float: left;
