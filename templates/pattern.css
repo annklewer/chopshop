@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,600,700);
+/* open sans fonts; italic 300, 400, 600. regular 400 600 700 */
+
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+h2 {
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left;
+  font-size: 1.2em;
+  margin-bottom: .3em;
+  margin-top: 6.5em;
+  line-height: .2em;
+  padding-left: 3em;
+}
