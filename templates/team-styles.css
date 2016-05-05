@@ -16,12 +16,13 @@
 }
 
 main {
-  margin-top: 130px;
+  margin-top: 70px;
   background-color: white;
 }
 
 img.team {
-  width: 40%;
+  width: 60%;
+  margin: 20px auto;
 }
 
 .mainpic {
@@ -42,40 +43,47 @@ div {
   position: relative;
 }
 
+
 h4 {
   font-family: "grafolita-script", cursive;
   text-align: center;
-  font-size: 1.3em;
-  line-height: 1.2em;
+  font-size: 2.3em;
   font-weight: regular;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(209,81,90);
 }
 
-h5 {
-  font-family: "grafolita-script", cursive;
+h3 {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 1.1em;
   text-align: center;
-  font-size: 1.8em;
-  font-weight: regular;
-  margin-top: 100px;
-  text-align: center;
-  color: rgb(209,81,90);
+  margin-top: 10px;
+}
+
+p {
+  margin-bottom: 30px;
 }
 
 
 @media screen and (min-width:800px) {
   main {
     max-width: 1000px;
-    margin: 0 auto 4em auto;
+    margin: 40px auto 4em auto;
     background-color: none;
   }
 
-  div {
+  h1 {
+    margin-top: 47px;
+  }
+
+  .team-member {
     display: block;
     max-width: 100%;
-    width: 100%;
+    width: 33.3%;
     margin: 15px auto 30px auto;
     float: left;
   }
-
   .mainpic {
     display: block;
     width: 100%;
