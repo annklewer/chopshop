@@ -11,7 +11,45 @@ h2 {
   text-align: left;
   font-size: 1.2em;
   margin-bottom: .3em;
-  margin-top: 6.5em;
+  margin-top: 5.5em;
   line-height: .2em;
   padding-left: 3em;
+  color: gray;
+}
+
+h1{
+  text-align: center;
+}
+
+hr{
+  margin-top: 1.4em;
+  width: 80%;
+
+}
+
+p{
+  padding-left: 4em;
+}
+
+h3{
+  text-align:left;
+  padding-left: 3.5em;
+  font-size:1em;
+}
+
+.box{
+	width:100px;
+	height:100px;
+  margin-left: 3.5em;
+}
+
+.pink{
+	background:rgb(209,81,90);
+
+}
+.purple{
+	background:#3B424E;
+}
+.gray{
+	background:gray;
 }
