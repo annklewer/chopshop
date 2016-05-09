@@ -11,7 +11,7 @@ body {
 
 p {
   font-family: 'Open Sans', Helvetica, sans-serif;
-  padding: 0;
+  padding: 0 5%;
   font-size: .9em;
   line-height: 1.7em;
 }
