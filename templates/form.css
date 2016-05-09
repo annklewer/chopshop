@@ -64,7 +64,7 @@ main {
 }
 
 form header {
-  margin: 0 0 20px 0;
+  margin: 0 0 30px 0;
 }
 form header div {
   font-size: 90%;
@@ -76,7 +76,7 @@ form header h2 {
 form > div {
   clear: both;
   overflow: hidden;
-  padding: 1px;
+  padding: .5;
   margin: 0 0 10px 0;
 }
 form > div > fieldset > div > div {
@@ -107,6 +107,8 @@ input[type=url],
 input[type=password],
 textarea {
 	width: 100%;
+  padding: .2em;
+  font-size: 1em;
   border-top: 1px solid #ccc;
   border-left: 1px solid #ccc;
   border-right: 1px solid #eee;
@@ -162,6 +164,39 @@ img.align-center social{
   display: block;
   width: 40%;
 }
+
+.button {
+   border-top: 1px solid #8d2c3b;
+   background: #d1515a;
+   background: -webkit-gradient(linear, left top, left bottom, from(#d1515a), to(#d1515a));
+   background: -webkit-linear-gradient(top, #d1515a, #d1515a);
+   background: -moz-linear-gradient(top, #d1515a, #d1515a);
+   background: -ms-linear-gradient(top, #d1515a, #d1515a);
+   background: -o-linear-gradient(top, #d1515a, #d1515a);
+   padding: 5px 11px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 12px;
+   font-family: 'Open Sans', Helvetica, sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #3b424e;
+   background: #3b424e;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
 
 
 /*!
@@ -468,6 +503,13 @@ http://nicolasgallagher.com/micro-clearfix-hack/
   select {
     width: 100%;
   }
+}
+
+@media (min-width: 500px) {
+form > div > label,
+legend {
+  text-align: right;
+}
 }
 
 @media (max-width: 800px) {
