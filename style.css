@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,600,700);
+/* open sans fonts; italic 300, 400, 600. regular 400 600 700 */
+
+body {
+  max-width: 1000px;
+  padding: 1em;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+div, section, main, aside, header, footer {
+  border: 1px solid lightgray;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+
+.button {
+   border-top: 1px solid #8d2c3b;
+   background: #d1515a;
+   background: -webkit-gradient(linear, left top, left bottom, from(#d1515a), to(#d1515a));
+   background: -webkit-linear-gradient(top, #d1515a, #d1515a);
+   background: -moz-linear-gradient(top, #d1515a, #d1515a);
+   background: -ms-linear-gradient(top, #d1515a, #d1515a);
+   background: -o-linear-gradient(top, #d1515a, #d1515a);
+   padding: 7px 14px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 12px;
+   font-family: 'Open Sans', Helvetica, sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #3b424e;
+   background: #3b424e;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
