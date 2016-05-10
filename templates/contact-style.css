@@ -14,8 +14,8 @@
   text-align: center;
 }
 
-.map {
-  width: 30%;
+iframe {
+  padding: 0 2em;
 }
 
 main {

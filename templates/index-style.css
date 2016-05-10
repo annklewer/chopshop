@@ -54,7 +54,13 @@ main {
     margin: 10px auto 0 auto;
   }
 
-  p{
-    padding: 0;
-  }
+/**  .ourstory {
+      padding: 0 2em;
+}**/
 }
+
+/**@media screen and (min-width:800px) {
+  .ourstory {
+    padding: none;
+    margin: none;
+  }**/
